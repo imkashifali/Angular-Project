@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder } from '@angular/forms';
+import { FormGroup, FormBuilder,Validators } from '@angular/forms';
 import { ApiService } from '../shared/api.service';
 import { RestaurentData } from './restaurent.module';
 
@@ -20,11 +20,11 @@ export class RestaurentDashComponent implements OnInit {
 
   ngOnInit(): void {
     this.FormValue = this.formBuilder.group({
-      name: [''],
-      email: [''],
-      mobile: [''],
-      address: [''],
-      services: [''],
+      name: ['',Validators.required],
+      email: ['',Validators.required],
+      mobile: ['',Validators.required],
+      address: ['',Validators.required],
+      services: ['',Validators.required]
     })
     this.getAllData()
   }

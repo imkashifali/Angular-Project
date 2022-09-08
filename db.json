@@ -1,20 +1,51 @@
 {
   "posts": [
     {
-      "id": 4,
-      "name": "ssssssssssss",
-      "email": "szzzzzzzzzzzzzzzzz",
-      "mobile": 222222222222222230000,
-      "address": "sncdkewfnwe",
-      "services": "sssssssssssssssssssssss"
+      "id": 1,
+      "name": "jazib",
+      "email": "jazib@gmail.com",
+      "mobile": 3332121321,
+      "address": "abc road lahore",
+      "services": "juice"
     },
     {
-      "id": 5,
-      "name": "z",
-      "email": "z",
-      "mobile": 2,
-      "address": "a",
-      "services": "aa"
+      "id": 2,
+      "name": "kashif",
+      "email": "jazib",
+      "mobile": 121677,
+      "address": "Test Road",
+      "services": "watch"
+    },
+    {
+      "id": 3,
+      "name": "master",
+      "email": "card@gmail.com",
+      "mobile": 2776776675,
+      "address": "CTD School",
+      "services": "mutton"
+    }
+  ],
+  "signup": [
+    {
+      "name": "ssssss",
+      "email": "ali@gmail.com",
+      "mobile": 2222222222222222,
+      "password": "22222222222",
+      "id": 1
+    },
+    {
+      "name": "kashif",
+      "email": "shafat@gmail.com",
+      "mobile": 123456789,
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "mobile": 21121213211,
+      "password": "12345",
+      "id": 3
     }
   ],
   "comments": [],
